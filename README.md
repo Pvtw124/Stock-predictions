@@ -99,7 +99,7 @@ It should output it's prediction for a close price. I used the same system as in
 
 ![image](markdown_images/method_2.2.png)
 
-It seems like there was not much of an improvement one method 1. It still outputs an offset version of the actual prices, meaning it's not really making predictions.
+It seems like there was not much of an improvement on method 1. It still outputs an offset version of the actual prices, meaning it's not really making predictions.
 
 ### Conclusion
 None of the models I created were effective. I think I tried too many different approaches, without diving in to one of them far enough to produce good results. It was still a good experience however and taught me a lot about time series data analysis with python.
