@@ -59,7 +59,7 @@ I could now merge the two tables.
 
 #### *Random Forest with closing price and tweet polarity*
 
-Next, I used RandomForestRegressor to quickly determine if there was a relationship between close price and polarity. The results were very poor. It overfit on the training set, scoring .82, and then found a negative coorelation on the test set, -0.23.
+Next, I used RandomForestRegressor to quickly determine if there was a relationship between close price and polarity. The results were very poor. It overfit on the training set, scoring .82, and then found a negative correlation on the test set, -0.23.
  #### *Random Forest with daily stock price change and tweet polarity*
 
  I thought there might be a better relationship between price between when a stock opens and closes in a day and and polarity. Closing price alone doesn't capture whether a stock is actively improving or not.
